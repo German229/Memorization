@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "math",
+      "type": "file",
+      "file": "Математика/Математика.md",
+      "x": -570,
+      "y": -335,
+      "width": 330,
+      "height": 158,
+      "color": "#8460D7"
+    },
+    {
+      "id": "python",
+      "type": "file",
+      "file": "Python/Python.md",
+      "x": -570,
+      "y": -95,
+      "width": 330,
+      "height": 158,
+      "color": "#4986C5"
+    },
+    {
+      "id": "sql",
+      "type": "file",
+      "file": "SQL/SQL.md",
+      "x": -570,
+      "y": 145,
+      "width": 330,
+      "height": 158,
+      "color": "#268D8D"
+    },
+    {
+      "id": "classic-ml",
+      "type": "file",
+      "file": "Classic ML/Classic ML.md",
+      "x": 560,
+      "y": -445,
+      "width": 330,
+      "height": 158,
+      "color": "#257EBA"
+    },
+    {
+      "id": "data-science",
+      "type": "file",
+      "file": "Data Science/Data Science.md",
+      "x": 560,
+      "y": -215,
+      "width": 330,
+      "height": 158,
+      "color": "#368D66"
+    },
+    {
+      "id": "nlp",
+      "type": "file",
+      "file": "NLP/NLP.md",
+      "x": 560,
+      "y": 15,
+      "width": 330,
+      "height": 158,
+      "color": "#BF5683"
+    },
+    {
+      "id": "data-engineering",
+      "type": "file",
+      "file": "Data Engineering/Data Engineering.md",
+      "x": 560,
+      "y": 245,
+      "width": 330,
+      "height": 158,
+      "color": "#B2723A"
+    },
+    {
+      "id": "start",
+      "type": "file",
+      "file": "Старт.md",
+      "x": -120,
+      "y": -100,
+      "width": 560,
+      "height": 200
+    }
+  ],
+  "edges": [
+    {
+      "id": "start-math",
+      "fromNode": "start",
+      "fromSide": "left",
+      "toNode": "math",
+      "toSide": "right",
+      "toEnd": "none",
+      "color": "#8460D7"
+    },
+    {
+      "id": "start-python",
+      "fromNode": "start",
+      "fromSide": "left",
+      "toNode": "python",
+      "toSide": "right",
+      "toEnd": "none",
+      "color": "#4986C5"
+    },
+    {
+      "id": "start-sql",
+      "fromNode": "start",
+      "fromSide": "left",
+      "toNode": "sql",
+      "toSide": "right",
+      "toEnd": "none",
+      "color": "#268D8D"
+    },
+    {
+      "id": "start-classic-ml",
+      "fromNode": "start",
+      "fromSide": "right",
+      "toNode": "classic-ml",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "#257EBA"
+    },
+    {
+      "id": "start-data-science",
+      "fromNode": "start",
+      "fromSide": "right",
+      "toNode": "data-science",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "#368D66"
+    },
+    {
+      "id": "start-nlp",
+      "fromNode": "start",
+      "fromSide": "right",
+      "toNode": "nlp",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "#BF5683"
+    },
+    {
+      "id": "start-data-engineering",
+      "fromNode": "start",
+      "fromSide": "right",
+      "toNode": "data-engineering",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "#B2723A"
+    }
+  ]
+}
